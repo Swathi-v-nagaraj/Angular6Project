@@ -63,8 +63,6 @@ export class TableComponent implements OnInit {
       formObject['Value'] = (chartData.data.yAxis.data[i]) ? chartData.data.yAxis.data[i] : '-';
       seriesArray.push(formObject);
     }
-
-    console.log(seriesArray);
   }
 
  //function to create an array of objects, of column JSON, to draw the table body 

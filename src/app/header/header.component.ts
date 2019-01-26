@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
   constructor() {
     window.addEventListener("click", event => {
-      if(event.target.id != "avatarId"){
+      if(event.target && event.target.id != "avatarId"){
         if(this.menuVisible)
           this.toggleMenu();
       }
