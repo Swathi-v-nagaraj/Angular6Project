@@ -1,6 +1,13 @@
-# IndiumTest
+# Angular6Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
+
+This project contains the map view, chart view and table view.
+
+#To run the project
+
+npm install
+ng serve
 
 ## Development server
 
