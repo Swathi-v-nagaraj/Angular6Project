@@ -1,0 +1,22 @@
+.col-sm-6{
+    float: left;
+    margin-top: 1%;
+}
+
+.margin-top{
+    margin-top: 6%;
+}
+
+.margin-bottom{
+    margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 900px) {
+    .margin-top{
+        margin-top: 35%;
+    }
+
+    .mobile-device-margin-top{
+        margin-top: 1%;
+    }
+}

@@ -1,0 +1,68 @@
+<div class="col-xs-12 col-sm-6 margin-top">
+    <h4>Line Chart 1 Data</h4>
+    <p-table [value]="seriesArray1" [scrollable]="true" scrollHeight="217px">
+        <ng-template pTemplate="header">
+            <tr>
+                <th *ngFor="let header of headers">{{header.yaxis}}</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData let-seriesArray1>
+            <tr>
+                <td>{{seriesArray1.Date}}</td>
+                <td>{{seriesArray1.Value}}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 margin-top mobile-device-margin-top">
+        <h4>Line Chart 2 Data</h4>
+      <p-table [value]="seriesArray2" [scrollable]="true" scrollHeight="217px">
+          <ng-template pTemplate="header">
+              <tr>
+                  <th *ngFor="let header of headers">{{header.yaxis}}</th>
+              </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-rowData let-seriesArray2>
+              <tr>
+                  <td>{{seriesArray2.Date}}</td>
+                  <td>{{seriesArray2.Value}}</td>
+              </tr>
+          </ng-template>
+      </p-table>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 margin-bottom">
+            <h4>Column Chart Data</h4>
+        <p-table [value]="columnArray" [scrollable]="true" scrollHeight="217px">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th *ngFor="let header of columnChartHeaders">{{header.yaxis}}</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-rowData let-columnArray>
+                <tr>
+                    <td>{{columnArray.Year}}</td>
+                    <td>{{columnArray.Value}}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 margin-bottom">
+            <h4>Area Chart Data</h4>
+        <p-table [value]="areaArray" [scrollable]="true" scrollHeight="217px">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th *ngFor="let header of headers">{{header.yaxis}}</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-rowData let-areaArray>
+                <tr>
+                    <td>{{areaArray.Date}}</td>
+                    <td>{{areaArray.Value}}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+      </div>
+

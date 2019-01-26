@@ -1,0 +1,21 @@
+{  
+    "config":{
+		"id": "column_chart",
+      	"title": "Column Chart",
+	    "axis":{
+			"xaxis":{
+				"label":"Year"
+			},
+		  	"yaxis":{
+				"label":"Solved Tasks"
+			}  	      				      
+	    }	      
+	 },     
+	"data":{
+		"xAxis": ["2000","2001","2002","2003","2004","2005","2006","2007"],
+		"yAxis": {
+			"name": "Solved Tasks",
+			"data": [30,10,25,66,74,10,35,48]			
+		}		
+	}
+}

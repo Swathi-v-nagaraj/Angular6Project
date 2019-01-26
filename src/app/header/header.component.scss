@@ -1,0 +1,53 @@
+$color-white: #ffffff;
+
+.logo{
+    width: 9em;
+}
+.avatar{
+    width: 3em;
+    cursor: pointer;
+    position: relative;
+}
+
+.active{
+    color: $color-white;
+    opacity: 1;
+}
+
+.avatar-container{
+    position: relative;
+}
+
+.menu {
+    width: 110px;
+    box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.2);
+    display: none;
+    position: absolute;
+    top: 3.1em;
+    right: 0;
+    background-color: $color-white;
+  
+    .menu-options {
+      list-style: none;
+      padding: 10px 0;
+      margin-bottom: 0px;
+  
+      .menu-option {
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 40px 10px 20px;
+        cursor: pointer;
+  
+        &:hover {
+          background: rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+    .avatar-container{
+        left: 12px;
+        bottom: 40px;
+    }
+}

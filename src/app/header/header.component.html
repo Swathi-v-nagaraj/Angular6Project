@@ -1,0 +1,21 @@
+<nav class="navbar navbar-dark fixed-top bg-dark">
+  <img class="logo" src="../../../assets/images/logo.jpg">
+  <div class="navbar-expand mr-auto">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="/map" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Map view</a>
+      <a class="nav-item nav-link" routerLink="/charts">Chart view</a>
+      <a class="nav-item nav-link" routerLink="/table">Table View</a>
+    </div>
+  </div>
+  <div class="avatar-container" (click)="toggleMenu()">
+    <img class="avatar" id="avatarId" src="../../../assets/images/avatar2.png">
+    <div class="menu" id="menuId">
+        <ul class="menu-options">
+          <li class="menu-option">Messages</li>
+          <li class="menu-option">Logout</li>
+        </ul>
+    </div>
+  </div>
+
+
+</nav>

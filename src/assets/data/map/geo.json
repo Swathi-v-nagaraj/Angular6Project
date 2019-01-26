@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Washington",
+        "state": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05810546875,
+          38.95940879245423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia",
+        "state": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1190185546875,
+          39.9602803542957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Denver",
+        "state": "warning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1171875,
+          39.774769485295465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Francisco",
+        "state": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.431640625,
+          37.80544394934271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rio de Janeiro",
+        "state": "warning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2421875,
+          -22.91792293614603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lima",
+        "state": "error"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.01416015625,
+          -12.039320557540572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barcelona",
+        "state": "warning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1752929687499996,
+          41.3850519497068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paris",
+        "state": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.373046875,
+          48.8936153614802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamburg",
+        "state": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.931640625,
+          53.48804553605622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "London",
+        "state": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17578125,
+          51.481382896100975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glasgow",
+        "state": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2626953125,
+          55.85064987433714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hong Kong",
+        "state": "error"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.169921875,
+          22.43134015636061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mumbai",
+        "state": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.7734375,
+          18.979025953255267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cape Town",
+        "state": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.45703125,
+          -33.87041555094182
+        ]
+      }
+    }
+  ]
+}
