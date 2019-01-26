@@ -10,12 +10,12 @@ export class HeaderComponent implements OnInit {
   menuVisible = false;
 
   constructor() {
-    window.addEventListener("click", event => {
-      if(event.target && event.target.id != "avatarId"){
-        if(this.menuVisible)
-          this.toggleMenu();
-      }
-    });
+    // window.addEventListener("click", event => {
+    //   if(event.target && event.target.id != "avatarId"){
+    //     if(this.menuVisible)
+    //       this.toggleMenu();
+    //   }
+    // });
    }
 
   ngOnInit() {
@@ -26,5 +26,12 @@ export class HeaderComponent implements OnInit {
     this.menuVisible = !this.menuVisible;
   }
   
+  messages(){
+    alert("You clicked on messages");
+  }
+
+  logout(){
+    alert("You clicked on Logout");
+  }
 
 }
